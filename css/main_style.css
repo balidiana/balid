@@ -1,0 +1,55 @@
+﻿header, footer {
+    padding: 0.5em; 
+    color: black;
+    background-color: pink;
+    clear: left;
+}
+h1.header {
+    padding: 0.5;
+    margin: 0.5;
+
+}
+
+h2.header {
+    padding: 0.2;
+    margin: 0.2;
+    color: black;
+    background-color: pink;
+}
+
+div#user {
+    float: right;
+}
+aside {
+    float: left;
+    width: 180px;
+    margin: 0;
+    padding: 1em;
+}
+section {
+    margin-left: 190px;
+    border-left: 2px pink;
+    padding: 1em;
+}
+ul {
+    float:left;
+    width:100%;
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    background-color: pink;
+}        
+a {
+    float:left;
+    width:6em; 
+    text-decoration:none; 
+    color:black;
+    background-color:pink;
+    padding:0.2em 0.6em;
+    border-right:1px solid white;
+}
+a.selected{
+    background-color: grey;
+}
+a:hover { background-color:red} 
+li { display:inline } 
